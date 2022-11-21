@@ -22,7 +22,7 @@ class _VideoViewState extends State<VideoView> {
         AbsorbPointer(absorbing: true, child: FijkView(player: widget.player, fit: widget.fit)),
         if (widget.player.state == FijkState.paused)
           Align(
-            child: Image.asset('asset/images/play.png', width: 70, height: 70),
+            child: Image.asset('packages/player/assets/play.png', width: 70, height: 70),
             alignment: Alignment.center,
           ),
       ]),
